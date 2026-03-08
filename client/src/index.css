@@ -12,7 +12,7 @@
     --card-foreground: oklch(0.145 0 0);
     --popover: oklch(1 0 0);
     --popover-foreground: oklch(0.145 0 0);
-    --primary: oklch(0.205 0 0);
+    --primary:blue;
     --primary-foreground: oklch(0.985 0 0);
     --secondary: oklch(0.97 0 0);
     --secondary-foreground: oklch(0.205 0 0);
@@ -126,4 +126,21 @@
   html {
     @apply font-sans;
     }
+}
+
+
+.center-component{
+  @apply flex items-center justify-center h-screen;
+}
+
+.gradient{
+  @apply bg-linear-to-r from-indigo-600 to-purple-600;
+}
+
+.auth-card-title{
+  @apply text-3xl text-center font-bold  text-transparent bg-clip-text;
+}
+
+.auth-icon-focus{
+  @apply absolute text-gray-400 size-5 bottom-3 left-3 transition-colors group-focus-within:text-violet-400 ;
 }
