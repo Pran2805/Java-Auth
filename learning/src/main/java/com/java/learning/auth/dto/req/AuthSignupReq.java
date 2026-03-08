@@ -1,4 +1,10 @@
-package com.java.learning.auth.dto;
+package com.java.learning.auth.dto.req;
 
-public class AuthSignupDTO {
+import lombok.Data;
+
+@Data
+public class AuthSignupReq {
+    private String username;
+    private String email;
+    private String password;
 }

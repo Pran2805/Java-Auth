@@ -1,4 +1,4 @@
-package com.java.learning.auth.dto;
+package com.java.learning.auth.dto.res;
 
 public class AuthSignupResponse {
 }
